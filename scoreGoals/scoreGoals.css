@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     background-size: cover;
-    background-image: url("/Users/islam/code/week3/scoreGoals/football-images/field.png")
+    background-image: url("./football-images/field.png")
 } 
 h1{
     display: block;
