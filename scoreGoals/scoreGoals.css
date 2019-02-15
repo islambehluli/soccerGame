@@ -1,0 +1,126 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-image: url("/Users/islam/code/week3/scoreGoals/football-images/field.png")
+} 
+h1{
+    display: block;
+    text-align: center;
+}
+.start-game{
+    margin-left: 46%;
+
+}
+.footbal-field{
+    height: 100%;
+}
+.football-goal{
+    display: block;
+    margin: 0 auto;
+    width:300px;
+    position: relative;
+    
+}
+.football-goal .goal{
+   
+    width: 100%;
+}
+
+.ball{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    bottom: 0px;
+   
+}
+.goal-reaction{
+    display: none;
+    height: 400px;
+    position: absolute;
+    left: 30%;
+}
+.goal-missed{
+    display: none;
+    height: 400px;
+    position: absolute;
+    left: 30%;
+}
+.performance{
+    position: absolute;
+    height: 150px;
+    right: 50px;
+    top: 30px;
+    background-image: url("./football-images/referee.jpg");
+    background-size: 100%;
+    color: green;
+    text-align: top;
+}
+li{
+    list-style-type: none;
+    position: relative;
+    left: -40px;
+    
+}
+.daniAlves{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+}
+.chiellini{
+    position: absolute;
+    width: 40px;
+    height: 100px;
+}
+.ronaldo{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+}
+.materazzi{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+}
+.football-goal .keeper{
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left:50%;
+    transform:translateX(-50%);
+ 
+}
+.goal-saved{
+    display: none;
+    height: 400px;
+    position: absolute;
+    left: 40%;
+
+}
+.keeperRight{
+    display: none;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left:70%;
+    transform:translateX(-50%);
+}
+.keeperLeft{
+    display: none;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left:30%;
+    transform:translateX(-50%);
+}
+.defenderWin{
+    
+    display: none;
+    height: 400px;
+    position: absolute;
+    left: 30%;
+
+}
